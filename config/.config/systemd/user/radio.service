@@ -1,0 +1,8 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/icecast2 -c icecast.xml
+
+[Install]
+WantedBy=default.target
