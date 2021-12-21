@@ -33,7 +33,7 @@
     </limits>
 
     <authentication>
-        <!-- Sources log in with username 'loveprod' -->
+        <!-- Sources log in with username 'username' -->
         <source-password>stream-password</source-password>
         <!-- Relays log in with username 'relay' -->
         <relay-password>stranger</relay-password>
