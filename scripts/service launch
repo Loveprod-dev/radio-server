@@ -4,4 +4,5 @@ systemctl --user enable radio
 systemctl --user enable mpd
 systemctl --user start radio
 systemctl --user start mpd
+loginctl enable-linger
 echo "launched"
