@@ -1,0 +1,12 @@
+#скрипт для запуска вещания с сервера
+#вы можете использовать его только в случае, если вы загрузили один или несколько треков
+#выполняйте его после запуска остальных скриптов
+mpc
+mpc insert audio
+mpc random
+mpc repeat
+mpc crossfade 10
+mpc crop
+mpc insert audio
+mpc del 1
+echo "working"
