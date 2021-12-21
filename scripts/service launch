@@ -1,0 +1,7 @@
+#Скрипт предназначен для запуска служб.
+#Используйте его от того пользователя, от которого будет работать радио.
+systemctl --user enable radio
+systemctl --user enable mpd
+systemctl --user start radio
+systemctl --user start mpd
+echo "launched"
