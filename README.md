@@ -1,7 +1,4 @@
-[README.md](https://github.com/Loveprod-dev/radio-server/files/7755043/README.md)
-# radio-server
-
-# описание.
+	# описание.
 Данный конфиг поможет вам создать свою собственную радиостанцию.
 Для установки зависимостей, используйте installer.
 ## контакты.
