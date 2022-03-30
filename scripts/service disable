@@ -1,0 +1,7 @@
+#script to disable icecast2, mpd services running as root.
+#Please only execute the script as root.
+
+service icecast2 disable
+service icecast2 stop
+service mpd disable
+service mpd stop
