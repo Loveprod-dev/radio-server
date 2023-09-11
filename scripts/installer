@@ -2,8 +2,8 @@
 #данный скрипт поможет вам установить всё необходимое для работы вашей радиостанции.
 #Работает только на debian/ubuntu
 #выполняйте от супер пользователя.
-apt install -y icecast2 --assume-no mpd mpc
-dervice icecast2 stop
+apt install -y icecast2 mpd mpc
+service icecast2 stop
 service icecast2 disable
 service mpd stop
 service mpd disable
