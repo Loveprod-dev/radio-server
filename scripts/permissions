@@ -2,5 +2,5 @@
 #Измените скрипт, если получаете ошибку при установке разрешений.
 #Пример скрипта основан на пользователе radio группе radio.
 chown -R radio:radio /home/radio
-chmod 777 -R /home/radio
+chmod 755 -R /home/radio
 echo "permissions fixed successfully"
